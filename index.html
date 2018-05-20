@@ -1,13 +1,36 @@
-<h1>Word Guess Game!!</h1><br>
+
+ <!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="UTF-8">
+     <title>Word Guess Game</title>
+   <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+   </head>
 
 
-<p id="word"></p>
-<p>Guesses</p>
-<p id="guesses"></p>
+   <body>
+       
+<h1 class="elegantshadow">Word Guess Game!!</h1><br>
+
+<h2>Current Word</h2>
+<h2 id="word"></h2><br>
+<p>Type any letter to start</p>
+<p>number of guesses remaining</p>
+<p id="remaining">10</p>
+<p>Letters Guessed</p>
+<p id="guesses">...</p>
 <p>Wins:</p>
-<p id="wins"></p>
+<p id="wins">0</p>
 <p>Losses:</p>
-<p id="losses"></p>
+<p id="losses">0</p>
+</body>
 
+</html>
+<audio id="myAudio">
+        <source src="assets/Ta Da-SoundBible.com-1884170640.mp3" type="audio/mpeg">
+        
+        Your browser does not support the audio element.
+      </audio>
+      
 
 <script src="assets/game.js"></script> 
